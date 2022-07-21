@@ -1,0 +1,12 @@
+@forward 'typography';
+@forward 'func' ;
+@use './func/' as layout;
+
+
+body{
+    background-color: gray;
+}
+.App{
+    @include layout.flexCenter();
+    height: 100vh;
+}
