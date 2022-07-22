@@ -110,16 +110,39 @@ body{
             flex-direction: column;
             margin: 20px auto;
             img{
-                width: 300px;
+                width: 350px;
                 
                 border-radius: 10px 10px 0 0;
-                object-fit:fill;
-                object-position: 0px 0px ;
+                
             }
             .card{
-                transform: translateY(-160px);
+                transform: translateY(-200px);
                 border-radius: 0 0 10px 10px;
-                max-width: 300px;
+                max-width: 350px;
+                padding: 1.5rem;
+                h3{
+                    
+                    margin: 0;
+                    padding: 0;
+                }
+                h1{
+                    
+                    margin: 0;
+                    word-wrap: normal;
+                    max-width: 20rem;
+                }
+                p{
+                    width: 100%;
+                }
+                ul{
+                    .first{
+                        margin-right: 20px;
+                    }
+                    .second{
+                        margin-right: auto;
+                    }
+
+                }
             }
         }
     }
