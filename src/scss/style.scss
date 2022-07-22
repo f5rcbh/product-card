@@ -1,14 +1,87 @@
 @forward 'typography';
+@use 'typography/color' as color;
 @forward 'func' ;
 @use './func/' as layout;
+@use 'typography/text' as text;
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 body{
-    background-color: gray;
+    background-color: color.$cream;
     
 }
 .App{
-    @include layout.flexCenter();
+    @include layout.gridCenter();
     height: 100vh;
+    .wrapper{
+        border: solid;
+        max-width: 45rem;
+        
+        @include layout.flexCenter();
+        img{
+            width: 350px;
+            
+        }
+        .card{
+            background-color: color.$white;
+            font-family: text.$family-mon;
+            padding: 3rem;
+            word-wrap: break-word;
+            
+            h3{
+                margin: 10px 0;
+                text-transform: uppercase;
+                
+                color: color.$darkerBlue;
+            }
+            h1{
+                margin: 10px 0;
+                font-family: text.$family-fra;
+                max-width: 7em;
+
+            }
+            p{
+                margin: 10px 0;
+                width:80%;
+                font-size: text.$size;
+                color: color.$grayBlue;
+                line-height: 1.5;
+            }
+            ul{
+                margin: 20px 0;
+                display: flex;
+                
+                justify-content: space-around  ;
+                li{
+                    list-style: none;
+                }
+                .first{
+                    
+                    font-size: 30px;
+                    color:color.$darkCyan;
+                    font-family: text.$family-fra;
+                }
+                .second{
+                    
+                    margin: auto;
+                    text-decoration: line-through;
+                    color: color.$grayBlue;
+                    
+                }
+            }
+            button{
+                outline: none;
+                border: none;
+                background-color: color.$darkCyan;
+                width: 100%;
+                font-size: text.$size;
+                color: color.$white;
+                padding: 10px;
+                border-radius: 10px;
+                margin: 20px 0;
+            }
+        }
+        
+    }
     
 }
