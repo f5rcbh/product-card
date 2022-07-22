@@ -108,9 +108,18 @@ body{
 
         .wrapper{
             flex-direction: column;
+            margin: 20px auto;
             img{
-                width: 100px;
-                height: 10rem;
+                width: 300px;
+                
+                border-radius: 10px 10px 0 0;
+                object-fit:fill;
+                object-position: 0px 0px ;
+            }
+            .card{
+                transform: translateY(-160px);
+                border-radius: 0 0 10px 10px;
+                max-width: 300px;
             }
         }
     }
