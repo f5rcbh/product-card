@@ -1,0 +1,13 @@
+// 700px 900px 1440px 
+
+$breakPoints:(
+    'small':700px,
+    'medium':900px,
+    'large':1440px
+);
+
+@mixin breakpoint($size) {
+    @media (max-width:map-get($breakPoints,$size)) {
+        @content
+    }
+}
