@@ -1,4 +1,6 @@
+import React from 'react';
 import Card from './components/card'
+
 import Img from './components/img';
 
 import './scss/style.css';
