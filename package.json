@@ -1,5 +1,5 @@
 {
-  "homepage": "http://f5rcbh.github.io/f5rcbh/product-card",
+  "homepage": "./src/App.js",
   "name": "product",
   "version": "0.1.0",
   "private": true,
