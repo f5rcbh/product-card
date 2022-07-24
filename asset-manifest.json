@@ -1,16 +1,16 @@
 {
-  "main.css": "./src/App.js/static/css/main.27860933.chunk.css",
-  "main.js": "./src/App.js/static/js/main.a04a6f2e.chunk.js",
-  "main.js.map": "./src/App.js/static/js/main.a04a6f2e.chunk.js.map",
-  "static/js/1.cc360fb6.chunk.js": "./src/App.js/static/js/1.cc360fb6.chunk.js",
-  "static/js/1.cc360fb6.chunk.js.map": "./src/App.js/static/js/1.cc360fb6.chunk.js.map",
-  "static/js/2.45d599a8.chunk.js": "./src/App.js/static/js/2.45d599a8.chunk.js",
-  "static/js/2.45d599a8.chunk.js.map": "./src/App.js/static/js/2.45d599a8.chunk.js.map",
-  "runtime~main.js": "./src/App.js/static/js/runtime~main.96a65a71.js",
-  "runtime~main.js.map": "./src/App.js/static/js/runtime~main.96a65a71.js.map",
-  "static/media/image-product-desktop.jpg": "./src/App.js/static/media/image-product-desktop.22a90138.jpg",
-  "static/css/main.27860933.chunk.css.map": "./src/App.js/static/css/main.27860933.chunk.css.map",
-  "index.html": "./src/App.js/index.html",
-  "precache-manifest.5879a09bdd11b42929ad8b446c57aa26.js": "./src/App.js/precache-manifest.5879a09bdd11b42929ad8b446c57aa26.js",
-  "service-worker.js": "./src/App.js/service-worker.js"
+  "files": {
+    "main.css": "/product-card/static/css/main.4a1499d7.css",
+    "main.js": "/product-card/static/js/main.74851e20.js",
+    "static/js/787.ceba7239.chunk.js": "/product-card/static/js/787.ceba7239.chunk.js",
+    "static/media/image-product-desktop.jpg": "/product-card/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "index.html": "/product-card/index.html",
+    "main.4a1499d7.css.map": "/product-card/static/css/main.4a1499d7.css.map",
+    "main.74851e20.js.map": "/product-card/static/js/main.74851e20.js.map",
+    "787.ceba7239.chunk.js.map": "/product-card/static/js/787.ceba7239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a1499d7.css",
+    "static/js/main.74851e20.js"
+  ]
 }
